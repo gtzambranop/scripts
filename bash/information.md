@@ -39,13 +39,13 @@ chmod +x solution.sh
 |19	|hacer merge y join para obtener un registro de 2 datasets|	[Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q19/solution.sh)|
 |20	|hacer merge y join para obtener un registro de 2 datasets|	[Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q20/solution.sh)|
 |21	|hacer merge y join para obtener un registro de 2 datasets|	[Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q21/solution.sh)|
-|22	|Leer 14 datasets y filtrar datos con un criterio de fecha (trimestre - rango)	| |
-|23	|Leer 14 datasets y filtrar datos con un criterio de fecha (trimestre - rango)	| |
-|24	|Leer 14 datasets y filtrar datos con un criterio de fecha (trimestre - rango)	| |
-|25	|Filtrar datos con un criterio de fecha (trimestre - rango)	||
-|26	|Filtrar datos con un criterio de fecha (trimestre - rango)	||
-|27	|Leer 14 datasets y filtrar datos con un criterio de fecha (trimestre - rango)	| |
-|28	|14 datasets, ver cuántos registros contienen un número en un grupo de digitos	| |
-|29	|Filtrar y contar filas segun iniciales nombre	| |
-|30	|Leer 14 datasets y filtrar datos con un criterio de pin(rango)	| |
-|31	|14Contar registros por archivo, obtener máximo	| |
+|22	|Leer 14 datasets y filtrar datos con un criterio de fecha (trimestre - rango)	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q22/solution.sh) |
+|23	|Leer 14 datasets y filtrar datos con un criterio de fecha (trimestre - rango)	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q23/solution.sh) |
+|24	|Leer 14 datasets y filtrar datos con un criterio de fecha (trimestre - rango)	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q24/solution.sh) |
+|25	|Leer 14 datasets y filtrar datos con un criterio de fecha (trimestre - rango)	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q25/solution.sh) |
+|26	|Filtrar datos con un criterio de fecha (trimestre - rango)	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q26/solution.sh) |
+|27	|Filtrar datos con un criterio de fecha (trimestre - rango)	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q27/solution.sh) |
+|28	|14 datasets, ver cuántos registros contienen un número en un grupo de digitos	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q28/solution.sh) |
+|29	|Filtrar y contar filas segun iniciales nombre	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q29/solution.sh) |
+|30	|Leer 14 datasets y filtrar datos con un criterio de pin(rango)	|  |
+|31	|14Contar registros por archivo, obtener máximo	|  |
