@@ -10,26 +10,25 @@ def printList(my_list):
         print(sep.join(l))
 
 # la lista generada es de la forma:
-# [['key', min, max], [...], ...]
-def searchList(my_list, key, val):
+# [['key', repetitions], [...], ...]
+def searchList(my_list, key):
     # Bandera que indica si crear o no una nueva sub-lista
     create = True
     # a debe ser muy grande para que sea mayor al valor de la columna 2
     a = 100000
     if(len(my_list) == 0):
         # Se agrega una sublista con la llave y el valor mínimo y máximo
-        my_list.append([key, min(val, a), max(val, 0)])
+        my_list.append([key, 1])
     else:
         for value in my_list:
             # Si se encuentra una coíncidencia, el segundo y tercer elemento
             # de la  sub-lista es incrementado dada las funciones "max" y"min"
             if(value[0] == key):
-                value[1] = min(value[1], val)
-                value[2] = max(value[2], val)
+                value[1] += 1
                 create = False
         if create:
             # Se agrega una sublista con la llave y el valor mínimo y máximo
-            my_list.append([key, min(val, a), max(val, 0)])
+            my_list.append([key, 1])
     return my_list
 
 # Se abre el archivo u su contenido es asignado a la variable "file"
@@ -46,7 +45,7 @@ with open("data.csv", 'r') as file:
         for item in items:
             # Cada elemento de la lista es separado por ":"
             key = item.split(':')
-            result = searchList(result, key[0], int(key[1]))
+            result = searchList(result, key[0])
     # Se ordena la lista
     result.sort()
     # Se imprime la lista
