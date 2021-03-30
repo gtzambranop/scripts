@@ -18,8 +18,8 @@ chmod +x solution.sh
 
 |Ejercicio	|Descripción	|Estado|
 | :---: | :---:| :---: |
-|01	|Cambio de formato en celdas con comando sed	| |
-|02	|Imprimir nombre archivo, num linea, letra, columnas...	| |
+|01	|Cambio de formato en celdas con comando sed	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q01/solution.sh) |
+|02	|Imprimir nombre archivo, num linea, letra, columnas...	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q02/solution.sh) |
 |03	|Imprimir valor de una fila y columna específica|	[Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q03/solution.sh)|
 |04	|Imprimir valor de una fila y columna específica|	[Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q04/solution.sh)|
 |05	|Imprimir valor de una fila y columna específica|	[Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q05/solution.sh)|
@@ -47,5 +47,5 @@ chmod +x solution.sh
 |27	|Filtrar datos con un criterio de fecha (trimestre - rango)	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q27/solution.sh) |
 |28	|14 datasets, ver cuántos registros contienen un número en un grupo de digitos	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q28/solution.sh) |
 |29	|Filtrar y contar filas segun iniciales nombre	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q29/solution.sh) |
-|30	|Leer 14 datasets y filtrar datos con un criterio de pin(rango)	|  |
-|31	|14Contar registros por archivo, obtener máximo	|  |
+|30	|Leer 14 datasets y filtrar datos con un criterio de pin(rango)	| [Realizado](https://github.com/gtzambranop/scripts/blob/develop/bash/q30/solution.sh) |
+|31	|14Contar registros por archivo, obtener máximo	| [Incompleto](https://github.com/gtzambranop/scripts/blob/develop/bash/q31/solution.sh) |
