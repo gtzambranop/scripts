@@ -8,14 +8,13 @@ USE q03;
 -- Se crea la tabla, indicando las columnas que lo conformarán y su ipología
 CREATE TABLE table1
 (
-	-- solo admite 1 caracter
-	K0  CHAR(1),
+	K0  TEXT,
 	K1  INT,
-	C12 FLOAT,
-	C13 INT,
-	C14 DATE,
-	C15 FLOAT,
-	C16 CHAR(4)
+	c12 FLOAT,
+	c13 INT,
+	c14 DATE,
+	c15 FLOAT,
+	c16 CHAR(4)
 );
 
 -- Se le indica de dónde obtener los datos para poblar la base de datos
@@ -25,3 +24,5 @@ INTO TABLE table1
 FIELDS TERMINATED BY ','
 -- Se especifica el símbolo que indica el final de un registro
 LINES TERMINATED BY '\n';
+
+SELECT * FROM table1 ORDER BY c14 ASC LIMIT 5;

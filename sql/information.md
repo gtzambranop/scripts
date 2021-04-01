@@ -50,15 +50,15 @@
 | :---: | :---: | :---: |
 |01|	Convertir csv, a tabla SQL. Calcular la suma de un campo|[Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q01/solution.py) |
 |02|	Convertir csv, a tabla SQL. Retornar cantidad de registros | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q02/solution.py) |
-|03|	Convertir csv, a tabla SQL. Retornar 5 primeros registros ordenados por fecha |  |
-|04|	Convertir 3 archivos csv a tablas sql. Retornar 2 campos para registros que cumplan que 2 columnas inicien con la misma letra |  |
-|05|	Convertir 3 archivos csv a tablas sql. Retornar todos los campos para registros con campo igual a 100 o 600 |  |
-|06|	Convertir 3 archivos csv a tablas sql. Retornar registros ordenados por fecha filtrado por 3 condiciones |  |
-|07|	Convertir 3 archivos csv a tablas sql. Retornar año y promedio de registros filtrando por fecha |  |
-|08|	Convertir 3 archivos csv a tablas sql. Retornar registro con menor valor de columna |  |
-|09|	Convertir 3 archivos csv a tablas sql. Retornar registros con mayor o igual valor (300) de columna |  |
-|10|	Convertir 3 archivos csv a tablas sql. Retornar registro con menor valor de columna |  |
-|11|	Convertir 3 archivos csv a tablas sql. Retornar año y cantidad de registros filtrando por fecha |  |
-|12|	Convertir 3 archivos csv a tablas sql. Retornar max y min por registro, filtrando por 2 columnas |  |
-|13|	Convertir 3 archivos csv a tablas sql. Agrupar por campo y calcular promedio de campo A, filtrando por campo B |  |
-|14|	Convertir 3 archivos csv a tablas sql. Agrupar por campo y calcular promedio de campo A, filtrando por campo B |  |
+|03|	Convertir csv, a tabla SQL. Retornar 5 primeros registros ordenados por fecha | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q03/solution.py) |
+|04|	Convertir 3 archivos csv a tablas sql. Retornar 2 campos para registros que cumplan que 2 columnas inicien con la misma letra | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q04/solution.py) |
+|05|	Convertir 3 archivos csv a tablas sql. Retornar todos los campos para registros con campo igual a 100 o 600 | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q05/solution.py) |
+|06|	Convertir 3 archivos csv a tablas sql. Retornar registros ordenados por fecha filtrado por 3 condiciones | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q06/solution.py) |
+|07|	Convertir 3 archivos csv a tablas sql. Retornar año y promedio de registros filtrando por fecha | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q07/solution.py) |
+|08|	Convertir 3 archivos csv a tablas sql. Retornar registro con menor valor de columna | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q08/solution.py) |
+|09|	Convertir 3 archivos csv a tablas sql. Retornar registros con mayor o igual valor (300) de columna | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q09/solution.py) |
+|10|	Convertir 3 archivos csv a tablas sql. Retornar registro con menor valor de columna | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q10/solution.py) |
+|11|	Convertir 3 archivos csv a tablas sql. Retornar año y cantidad de registros filtrando por fecha | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q11/solution.py) |
+|12|	Convertir 3 archivos csv a tablas sql. Retornar max y min por registro, filtrando por 2 columnas | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q12/solution.py) |
+|13|	Convertir 3 archivos csv a tablas sql. Agrupar por campo y calcular promedio de campo A, filtrando por campo B | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q13/solution.py) |
+|14|	Convertir 3 archivos csv a tablas sql. Agrupar por campo y calcular promedio de campo A, filtrando por campo B | [Realizado](https://github.com/gtzambranop/scripts/blob/develop/sql/q14/solution.py) |
