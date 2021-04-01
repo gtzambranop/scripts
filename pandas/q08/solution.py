@@ -25,4 +25,6 @@ data = data.groupby('_c1')['_c2'].apply(list).reset_index(name='lista')
 # debe ser modificada usando la función "formatList()"
 data['lista'] = [formatList(l) for l in data['lista']]
 
+# Se renombra la columna '_c1'
+data.rename(columns = {'_c1':'_c0'}, inplace=True)
 print(data)
