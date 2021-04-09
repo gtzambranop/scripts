@@ -1,8 +1,4 @@
-# Algunos archivos terminaban con un salto de línea de la forma "\r" por lo que
-# al hacer join se generaban conflictos. Por esta razón se procesan ambos archivos
-# y se elimina dicho caracter
-sed 's/\r$//' data.csv > del
-mv del data.csv
+cp data.csv copy.csv
 
 # Opciones:
 # -E: Use sed con exptesiones regulares extendidas
@@ -31,7 +27,7 @@ mv del data.csv
 
 # Este comando divide la fecha en 3 grupos de captura y los reordena al final
 # en el formato solicitado
-sed -E 's,^([0-9]+)/([0-9]+)/([0-9]+),\3/\2/\1,' data.csv > del
+sed -E 's,^([0-9]+)/([0-9]+)/([0-9]+),20\3-\2-\1,' data.csv > del
 mv del data.csv
 
 # Cambia todas las letras a mayúsculas con \U
@@ -53,3 +49,7 @@ mv del data.csv
 # Reemplazando los punto y coma por comas ;->,
 sed -e 's/;/,/g' data.csv > del
 mv del data.csv
+
+cat data.csv
+
+cp copy.csv data.csv

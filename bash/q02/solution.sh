@@ -19,6 +19,6 @@ do
     awk -F'\t' 'split($2, d, "[, ]"){
         i++;
         for(j in d)
-            print FILENAME, i, $1, d[j];
+            printf("%10s,%1d,%1s,%5s\n", FILENAME, i, $1, d[j]);
     };' $f
 done
