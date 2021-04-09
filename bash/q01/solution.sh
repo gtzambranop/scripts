@@ -39,7 +39,10 @@ sed -E 's/;;|;N;/;\\N;/g' data.csv > del
 mv del data.csv
 
 # Formateo de los valores nulos al final de la línea, | == OR
-sed -E 's/;$|;N$/;\\N/g' data.csv > del
+sed -e 's/;.$/;\\N/g' data.csv > del
+mv del data.csv
+
+sed -e 's/;N/;\\N/g' data.csv > del
 mv del data.csv
 
 # Reemplazando las comas por puntos ,->.
